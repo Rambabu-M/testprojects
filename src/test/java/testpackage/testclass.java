@@ -12,6 +12,8 @@ public class testclass {
 
 	        // Create an instance of ChromeDriver
 	        WebDriver driver = new ChromeDriver();
+	        
+	        driver.manage().window().maximize();
           
 	        // Navigate to the desired URL
 	        driver.get("https://connectors.cbwpayments.com/ledgermaster/#/login");
